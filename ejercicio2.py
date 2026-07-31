@@ -1,0 +1,5 @@
+print("Ditite tres numeros enteros:")
+num1=input("Numero 1 ")
+num2=input("Numero 2 ")
+num3=input("Numero 3 ")
+print("El valor medio de los 3 es: ",num2)
