@@ -1,9 +1,13 @@
-A = int(input("Ingrese el primer número: "))
-B = int(input("Ingrese el segundo número: "))
+segundos = int(input("introduzca los segundos: "))
 
-aux = A
-A = B
-B = aux
+horas = segundos // 3600
 
-print("A =", A)
-print("B =", B)
+resto = segundos % 3600
+
+minutos = resto // 60
+
+
+
+segundos_restantes = resto % 60
+
+print (f"{horas} horas {minutos} minutos {segundos_restantes} segundos")

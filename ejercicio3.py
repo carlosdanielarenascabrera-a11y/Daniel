@@ -1,4 +1,9 @@
-km=float(input("Ingresar el número de kilómetros recorridos por su coche: "))
-litrosKm=float(input("El número de litros consumidos: "))
-consumoKm=float(litrosKm/km) 
-print("El consumo de combustible por km es de ",consumoKm)
+largo = int(input("introduzca el largo de un rectangulo: "))
+
+ancho = int(input("introduzca el ancho de un ractangulo: "))
+
+area = largo * ancho
+
+perimetro = (largo+ancho) * 2
+
+print (f"area: {area} perimetro: {perimetro}")

@@ -1,9 +1,9 @@
-comensales = int(input("Ingrese el número de comensales: "))
+num1 = int(input("introduzca un numero: "))
 
-patatas = comensales * 200
-huevos = int((patatas * 5) / 1000)
-cebolla = (patatas * 300) / 1000
+num2 = int(input("introduzca un numero: "))
 
-print("Patatas:", patatas, "gramos")
-print("Huevos:", huevos)
-print("Cebolla:", cebolla, "gramos")
+num3 = num1
+num1 = num2
+num2 = num3
+
+print(f"numero  {num1} numero  {num2}")

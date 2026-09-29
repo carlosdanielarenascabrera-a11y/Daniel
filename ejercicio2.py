@@ -1,5 +1,8 @@
-print("Ditite tres numeros enteros:")
-num1=input("Numero 1 ")
-num2=input("Numero 2 ")
-num3=input("Numero 3 ")
-print("El valor medio de los 3 es: ",num2)
+celsius = int(input("introduzca la temperatura: "))
+
+fahrenheit = (celsius * 9/5) + 32
+
+kelvin = (  celsius + 273.15)
+
+
+print (f"la temperatura en celsius es: {celsius}°C  la temperatura en Fahrenheit es: {fahrenheit}°F  Temperatura en Kelvin: {kelvin}K ")
